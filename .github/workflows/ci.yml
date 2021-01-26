@@ -31,9 +31,6 @@ jobs:
         pwd
         echo Listing the contents of the folder
         ls -la
-    - name: Print environment variables
-      run: |
-        printenv
     # Install pylint and pytest
     - name: Install dependencies
       run: |
